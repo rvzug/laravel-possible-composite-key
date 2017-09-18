@@ -1,6 +1,6 @@
 <?php
 
-namespace Rvzug\CanHasCompositeKey
+namespace Rvzug\CanHasCompositeKey;
 
 use Illuminate\Database\Eloquent\Builder;
 
