@@ -1,0 +1,21 @@
+{
+  "name": "rvzug/laravel-possible-composite-key",
+  "description": "PHP trait to use composite keys in your Laravel Eloquent models and does not fail on possible missing column.",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rudi van Zandwijk ",
+      "email": "rudivanzandwijk@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rvzug\\CanHasCompositeKey\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/database": "5.*"
+  }
+}
